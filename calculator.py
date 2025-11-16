@@ -1,3 +1,7 @@
+## https://github.com/Lg-123-abc/lab11-LAG-AGG
+## Partner 1: Lillian Groudas
+## Partner 2: Alexander Groudas
+
 import math
 
 # First example
@@ -17,18 +21,13 @@ def div(a, b):
         return b / a
 
 def logarithm(a, b): # use math library/raise ValueError
-    return math.log(a,b)
+    return math.log(a, b)
 
 def exp(a, b):
     return math.pow(a, b)
 
 def square_root(a):
-    try:
-        result = math.sqrt(a)
-        return result
-    except ValueError as e:
-        print("Value Error")
-        return None
+        return math.sqrt(a)
 
 def hypotenuse(a,b):
     return math.hypot(a, b)
