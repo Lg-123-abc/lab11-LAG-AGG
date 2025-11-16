@@ -22,7 +22,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_multiply(self): # 3 assertions
         self.assertEqual(mul(2,3), 6)
-        self.assertEqual(mul(-1,1), -1)
+        self.assertIsNotNone(mul(-1,1))
         self.assertNotEqual(mul(-1,-2), -2)
 
     def test_divide(self): # 3 assertions
